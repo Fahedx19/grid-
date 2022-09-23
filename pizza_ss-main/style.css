@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Lobster&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&family=Rowdies:wght@400;700&family=Supermercado+One&family=Tajawal:wght@500&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #fafafa;
+}
+    
+
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(assest/Hilton-head-motorcoach-contact.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 6%;
+
+}
+nav a img{ 
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+.nav-links{
+    
+    flex: 1;
+    text-align: right;
+
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 2%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    transition: .5s;
+}
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: bold;
+    transition: .5s;
+}
+.nav-links ul li a:hover{
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: orangered;
+    margin: auto;
+    padding: auto;
+    
+}
+.text {
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* in the center of the div*/
+    transform: translate(-50%, -50%);
+  
+    text-align: center;
+}
+.text h1{
+    font-size: 62px;
+    color: #fff;
+    
+}
+.text p{
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    margin: 10px 20px 10px 20px;
+}
+.text a{
+    text-decoration: none;
+    display: inline-block;
+    border: #fff solid 1px;
+    padding: 10px 20px;
+    margin: 30px 20px 10px 20px;
+    font-size: 12px;
+    background: transparent;
+    position: relative;
+cursor:pointer ;
+color: #fff;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.text a:hover{
+      border: 1px solid #fff;
+        background-color:orangered;
+
+}
+
+
+/* menu styles */
+
+.Menu{
+    Width: 80%;
+    text-align: center;
+    padding-top: 50px;
+    margin: auto;
+}
+
+.Menu h1{
+    font-size: 62px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.Menu p{
+    font-size: 20px;
+    font-weight: bold;
+    color: #777;
+    margin: 10px 20px 10px 20px;
+    line-height: 22px;
+}
+
+
+.row{
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.col{
+    flex-basis: 32%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;   
+    transition: .5s;
+}
+
+
+.col:hover{
+    box-shadow: 0 0 20px black;
+    box-sizing: border-box;
+}
+
+.col h3{
+    font-size: 22px;
+    color: #777;
+    margin-bottom: 10px;    
+}
+
+
+/* branches */
+.branches{
+    margin: auto;
+    padding-top: 50px;
+    text-align: center;
+    width: 80%;
+}
+.colbr{
+    flex-basis: 32%;
+    background: #fff3f3;
+    margin-bottom: 30px;
+    border-radius: 50px;
+    position: relative;
+    overflow: hidden;
+        
+
+}
+.colbr img{
+    width: 100%;
+    height: 360px;
+}
+
+.layout{
+
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: .6s;
+    color: #fff3f3;
+    font-family: 'Comforter', sans-serif;
+
+    
+}
+
+
+.layout:hover{
+    background-color: rgba(225, 0, 220, .3);
+}
+
+/* footer */
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color:#24363b;
+    background-size: cover;
+    text-align: center;
+    color:black;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px ;
+}
+.rowf{
+    display: flex;
+    flex:wrap;
+}
+.rowf ul{
+    list-style: none;
+}
+.rowf ul li a{
+    list-style: none;
+    margin-left: 2%;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    transition: .5s;
+    font-family: 'Tajawal', sans-serif;
+}
+.colf h3{
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 10px;  
+    font-family: 'Rowdies', cursive;;  
+}
+.rowf ul li a:hover{
+    text-decoration: none;
+    border-radius: 10px;
+    margin: auto;
+    padding: auto;    
+}
+.colf{
+    flex-basis: 32%;
+    margin-bottom: 30px;
+    border-radius: 50px;
+}
+
+
+.logo{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+

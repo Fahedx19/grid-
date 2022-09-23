@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration For Me</title>
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,300" type="text/css"> 
+    <link rel="stylesheet" href="./Styles/style.css">
+</head>
+<body>
+
+    <body>
+        
+        <form action="" method="POST">
+            <h1> Registration Forum</h1>
+            <fieldset>
+                <legend><span class="section">-_-</span>Personal Info</legend>
+    
+            <label class="" for="name" >Full Name:</label>
+            <input type="text" name="name" id="Username" value="" placeholder="Enter your full name with a space in between">
+    
+            <label class="" for="name" >ID of account:</label>
+            <input type="text" name="Id" id="Id" value="" placeholder="Enter ID for account">
+    
+            <label class="" for="name" >Password:</label>
+            <input type="password" name="password" value="" id="password" placeholder="Inpu t atleast 1 number and different characters">
+    
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="Don't Forget the @ sign :)">
+    
+            <label for="number">Enter your phonenumber:</label>
+            <input type="number" name="number" id="phoneNumber" value="01" placeholder="Enter your 12 phone digit numbers">
+    
+            <label for="age">Date of birth :</label>
+            <input type="date" name="age" value="date">
+    
+            <label for="gender">Gender:</label>
+            <select name="gender" id="gender">
+    
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+    
+            </select>
+    
+            <label for="City">City:</label>
+            <select name="City" id="city">
+    
+                <option value="Alexandria">Alexandria</option>
+                <option value="Cairo">Cairo</option>
+                <option value="Luxor">Luxor</option>
+                <option value="Aswan">Aswan</option>
+                <option value="Giza">Giza</option>
+                
+    
+            </select>
+    
+            <label for="location">Your Location:</label>
+            <input type="text" name="location" value="" placeholder="Enter the location or nearby street name">
+    
+
+    
+            <label for="info">How did you find us</label>
+            <select name="info">
+    
+                <option value="net">From the social media</option>
+                <option value="ads">From ADS</option>
+                <option value="friend">From a friend</option>
+                <option value="someone">Recommended by someone</option>
+                <option value="random">Coincidence</option>
+    
+            </select>
+    
+                </fieldset>
+            <button type="button" onclick="CheckBox()">Check Before Submit</button>
+            <button type="submit" id="submit">Submit</button>
+        </form>
+    
+
+        <script src="./Script/script.js"></script>
+</body>
+</html>
